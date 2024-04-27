@@ -1,0 +1,27 @@
+import socket
+
+def get_ip_address(domain_name):
+    """
+    Function to get the IP address for a given domain name.
+
+    Args:
+    domain_name (str): The domain name for which IP address needs to be retrieved.
+
+    Returns:
+    str: The IP address corresponding to the domain name.
+    """
+    try:
+        ip_address = socket.gethostbyname(domain_name)
+        return ip_address
+    except socket.gaierror:
+        return "Unable to resolve the domain name to an IP address."
+
+# Input domain name from user
+domain_name = input("Enter the domain name: ")
+
+# Get and print the IP address for the domain name
+ip_address = get_ip_address(domain_name)
+print(f"The IP address for {domain_name} is: {ip_address}")
+
+
+# to run : python "filname".py
