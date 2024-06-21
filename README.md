@@ -1,3 +1,4 @@
 # ASPU-tool
 university project
-fdsfd
+"to turn on the project just
+  Uni_Project.py
