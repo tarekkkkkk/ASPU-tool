@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T02:50:21.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="YjZ1qkyWUTl2QSVsXSxd" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T03:06:33.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="mmrjNnWmSJVHfJr1XFfZ" version="24.6.4" type="github" pages="2">
   <diagram name="Page-1" id="DlhGQA2y3fduNJWzYTei">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,6 +117,103 @@
         </mxCell>
         <mxCell id="oClISLsXouoNxd5db2oI-53" value="also our bot has addition feature it is about counter to count how many times this ip has visited the web page and if this ip has arrived to the limit count , automatically the bot will block this ip" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="870" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vc4E5moYk3B5PPLHG1aO" name="Page-2">
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-1" value="client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="80" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-3" value="make request : IP address" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="400" as="sourcePoint" />
+            <mxPoint x="420" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="350" />
+              <mxPoint x="150" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-8" value="Request Library &amp;amp; Socket Library" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="289" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-9" value="&lt;div style=&quot;color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;socket&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;gethostbyname&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;ip&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-15" value="Get IP address" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="260" />
+              <mxPoint x="480" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="429.5" as="sourcePoint" />
+            <mxPoint x="430" y="429.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-18" value="make request : Domain Name" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-19" value="&lt;div style=&quot;color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;socket&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;gethostbyaddr&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;font color=&quot;#00ffff&quot;&gt;DN&lt;/font&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="510" />
+              <mxPoint x="500" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-22" value="Get IP address" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="sourcePoint" />
+            <mxPoint x="390" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="590" />
+              <mxPoint x="260" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-24" value="&lt;div style=&quot;color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;requests&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;get&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="630" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-25" value="make request : URL" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="690" as="sourcePoint" />
+            <mxPoint x="110" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="760" />
+              <mxPoint x="160" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3PQrEYjp5d8whyGHCAZy-27" value="Get Web Page Code" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="119" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
