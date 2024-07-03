@@ -1,9 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T01:48:00.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" version="24.6.4" etag="amh52aN0r2Ff1yZ7KxvC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T02:30:08.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="vQqx085YIp6MMeRQlwMz" version="24.6.4" type="github">
   <diagram name="Page-1" id="DlhGQA2y3fduNJWzYTei">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oClISLsXouoNxd5db2oI-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="120" as="sourcePoint" />
+            <mxPoint x="260" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-3" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=40;dy=30;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-6" value="WebPage.com" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-16" value="http://" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-19" value="&lt;div&gt;HTML&lt;/div&gt;&lt;div&gt;photos&lt;/div&gt;&lt;div&gt;links&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-23" value="dashnoard" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="170" as="sourcePoint" />
+            <mxPoint x="490" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="150" />
+              <mxPoint x="540" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-26" value="scripts into this web page for detect any malicious actions" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-27" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="510" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="350" />
+              <mxPoint x="260" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-28" value="Using telegram application with this script arrive warning messages to website owner " style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="410" as="sourcePoint" />
+            <mxPoint x="630" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-33" value="Telegram Warning Message" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-36" value="&lt;font color=&quot;#007fff&quot;&gt;IP&lt;/font&gt;: visitor ip&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;User Agent&lt;/font&gt;: browser name &amp;amp; info&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;Referer&lt;/font&gt;:&amp;nbsp;&amp;nbsp; Header&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;Protocol&lt;/font&gt;:&amp;nbsp;&amp;nbsp;&amp;nbsp; HTTP/1.1&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;Server Name&lt;/font&gt;: localhost&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;Location&lt;/font&gt;: Damascus, Syria&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;ISP&lt;/font&gt;: ISP-TARASSUL&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;Refresh &lt;/font&gt;Count: 7" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oClISLsXouoNxd5db2oI-33">
+          <mxGeometry x="10" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="589.5" as="sourcePoint" />
+            <mxPoint x="360" y="589.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="589.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-41" value="&#xa;according in this messages the owner decide if he are visitor or Attacker&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="650" as="sourcePoint" />
+            <mxPoint x="340" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="650" as="sourcePoint" />
+            <mxPoint x="170" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-44" value="if he was really just a visitor and his actions just browsing and reacting with web site features " style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="780" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-45" value="OR" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-47" value="He is an attacker by a lot of requests on web page &lt;br&gt;or trying to inject scripts or codes to try to access to data base and make queries on system " style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="790" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-48" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="860" as="sourcePoint" />
+            <mxPoint x="500" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="890" />
+              <mxPoint x="390" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-49" value="in this case the owner has the choice to block his IP address and report on him the govenrment during the information using our injected scripts " style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="950" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-51" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="180" height="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oClISLsXouoNxd5db2oI-53" value="also our bot has addition feature it is about counter to count how many times this ip has visited the web page and if this ip has arrived to the limit count , automatically the bot will block this ip" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="980" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
